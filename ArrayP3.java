@@ -2,7 +2,7 @@ package com.arrayprograms;
 
 import java.util.Scanner;
 
-// Second Maximum/Largest element inside an array
+// Second Minimum/Smallest element inside an array
 
 public class Main {
 	static int secondSmallestElement(int[] arr){
@@ -30,7 +30,7 @@ public class Main {
 		}
 		scan.close();
 		int res = secondSmallestElement(arr);
-		System.out.println("The second Smallest element in the array is:");
+		System.out.println("The second smallest element in the array is:");
 		System.out.println(res);
 	}
 }
