@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Minimum/Smallest pair sum among the given array elements (Positive or Negative)
 
 public class Main {
-	static int secondSmallestElement(int[] arr){
+	static int minPairSum(int[] arr){
 		int smallest = Integer.MAX_VALUE;
 		int secondSmallest = Integer.MAX_VALUE;
 		for (int i=0 ; i<arr.length ; i++) {
@@ -29,7 +29,7 @@ public class Main {
 			arr[i] = scan.nextInt();
 		}
 		scan.close();
-		int res = secondSmallestElement(arr);
+		int res = minPairSum(arr);
 		System.out.println("The minimum sum of pairs among the given element is:");
 		System.out.println(res);
 	}
