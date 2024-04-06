@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Second Maximum/Largest element inside an array
 
-public class SecondSmallestElementInAnArray {
+public class Main {
 	static int secondLargestElement(int[] arr){
 		int largest = Integer.MIN_VALUE;
 		int secondLargest = Integer.MIN_VALUE;
