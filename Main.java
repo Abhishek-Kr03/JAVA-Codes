@@ -2,7 +2,7 @@ package com.arrayprograms;
 
 import java.util.Scanner;
 
-// Total pairs of the elements in the given array
+// Total count of pair of the elements present in the given array.
 
 public class Main {
 	
@@ -25,9 +25,8 @@ public class Main {
 			arr[i] = scan.nextInt();
 		}
 		scan.close();
-		System.out.println("Total counts of pair of elements in the given array is:");
+		System.out.println("Total count of pair of the elements present in the given array is:");
 		int res = pairsInArray(arr);
 		System.out.println(res);
-
 	}
 }
