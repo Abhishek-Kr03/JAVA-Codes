@@ -2,7 +2,7 @@ package com.arrayprograms;
 
 import java.util.Scanner;
 
-// Minimum/Smallest element inside an array
+// Minimum/Smallest element inside an array to be checked
 
 public class Main {
 	static int SmallestElement(int[] arr){
