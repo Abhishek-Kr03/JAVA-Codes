@@ -2,7 +2,7 @@ package com.arrayprograms;
 
 import java.util.Scanner;
 
-// Maximum/Largest element inside an array
+// Maximum or Largest element inside an array
 
 public class Main {
 	static int LargestElement(int[] arr){
